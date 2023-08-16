@@ -1,4 +1,35 @@
-# 1.0.0
+# 1.1.0
+
+- Added 4.0 characters
+  - Lyney
+  - Lynette
+  - Freminet
+- Added 4.0 artifact sets
+  - Golden Troupe
+  - Marechaussee Hunter
+- Added 4.0 weapons
+  - 5 star
+    - Bow
+      - The First Great Magic
+  - 4 star
+    - Bow
+      - Scion of the Blazing Sun
+      - Song of Stillness
+    - Catalyst
+      - Flowing Purity _(note: only initial simple passive implemented)_
+      - Sacrificial Jade _(note: passive not implemented)_
+    - Claymore
+      - Talking Stick
+      - Tidal Shadow
+    - Polearm
+      - Ballad of the Fjords
+      - Rightful Reward
+    - Sword
+      - Finale of the Deep
+      - Fleuve Cendre Ferryman
+      - Wolf-Fang
+
+# 1.0.0
 
 Note that this is non-comprehensive - up until creating this separate repo for issue tracking, we've just been listing important feature updates in the help page of the app.
 
