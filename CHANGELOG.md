@@ -1,3 +1,8 @@
+# 1.1.1
+
+- Fixed Kazuha plunge attack infusion priority
+- Fixed UI for editing account characters
+
 # 1.1.0
 
 - Added 4.0 characters
