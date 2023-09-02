@@ -1,3 +1,7 @@
+# 1.1.2
+
+- Fixed Dehya C2
+
 # 1.1.1
 
 - Fixed Kazuha plunge attack infusion priority
