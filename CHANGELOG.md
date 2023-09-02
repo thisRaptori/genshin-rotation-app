@@ -1,6 +1,6 @@
 # 1.1.2
 
-- Fixed Dehya C2
+- Fixed Dehya C2 & C6 skill extensions
 
 # 1.1.1
 
