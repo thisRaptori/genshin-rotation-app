@@ -1,3 +1,8 @@
+# 1.2.0
+
+- Lyney frames
+- Lynette frames
+
 # 1.1.3
 
 - Fix end on swap in some situations
