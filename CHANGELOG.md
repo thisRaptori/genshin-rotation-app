@@ -1,6 +1,12 @@
+# 1.1.3
+
+- Fix end on swap in some situations
+  - e.g. when character receiving buff doesn't go off-field at tend of rotation
+
 # 1.1.2
 
 - Fixed Dehya C2 & C6 skill extensions
+- Fixed Nahida C5
 
 # 1.1.1
 
