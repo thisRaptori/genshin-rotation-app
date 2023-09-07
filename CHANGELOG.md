@@ -1,3 +1,8 @@
+# 1.4.0
+
+- Added Lynette C4
+- Removed duration from Wanderer burst
+
 # 1.3.0
 
 - Added Jean hold skill variant
