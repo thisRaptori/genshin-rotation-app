@@ -1,3 +1,9 @@
+# 1.3.0
+
+- Added Jean hold skill variant
+- Heizou & Jean n -> c frames fix
+  - A couple of frames were set to 500 since that's how gcsim approached them, no idea why they did that, so just removing.
+
 # 1.2.0
 
 - Lyney frames
