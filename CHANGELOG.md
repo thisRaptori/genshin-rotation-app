@@ -1,36 +1,36 @@
-# 1.4.0
+# 4.0.6
 
 - Added Lynette C4
 - Removed duration from Wanderer burst
 
-# 1.3.0
+# 4.0.5
 
 - Added Jean hold skill variant
 - Heizou & Jean n -> c frames fix
   - A couple of frames were set to 500 since that's how gcsim approached them, no idea why they did that, so just removing.
 
-# 1.2.0
+# 4.0.4
 
 - Lyney frames
 - Lynette frames
 
-# 1.1.3
+# 4.0.3
 
 - Fix end on swap in some situations
   - e.g. when character receiving buff doesn't go off-field at tend of rotation
 - Add sucrose swirl duration to all attacks
 
-# 1.1.2
+# 4.0.2
 
 - Fixed Dehya C2 & C6 skill extensions
 - Fixed Nahida C5
 
-# 1.1.1
+# 4.0.1
 
 - Fixed Kazuha plunge attack infusion priority
 - Fixed UI for editing account characters
 
-# 1.1.0
+# 4.0.0
 
 - Added 4.0 characters
   - Lyney
@@ -61,7 +61,7 @@
       - Fleuve Cendre Ferryman
       - Wolf-Fang
 
-# 1.0.0
+# 3.8.0
 
 Note that this is non-comprehensive - up until creating this separate repo for issue tracking, we've just been listing important feature updates in the help page of the app.
 
