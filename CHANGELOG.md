@@ -1,3 +1,9 @@
+# 4.0.7
+
+- Fix Dori infusion
+- Fix Razor cooldowns
+- Added Diona C4
+
 # 4.0.6
 
 - Added Lynette C4
