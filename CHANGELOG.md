@@ -1,3 +1,11 @@
+# 4.0.8
+
+- Added charged attack visual indicator
+- Enabled constellation-specific frames and hitmarks
+- Added Ganyu C6
+- Added Tighnari C6
+- Added Faruzan C1
+
 # 4.0.7
 
 - Fix Dori infusion
