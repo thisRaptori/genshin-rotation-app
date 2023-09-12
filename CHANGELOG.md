@@ -1,3 +1,8 @@
+# 4.0.9
+
+- Freminet frames & normals implementation (does not include burst mechanics)
+- Added Kazuha elemental damage buff duration display
+
 # 4.0.8
 
 - Added charged attack visual indicator
