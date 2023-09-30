@@ -1,3 +1,7 @@
+# 4.1.0
+
+- Added beta Neuvillette
+
 # 4.0.9
 
 - Freminet frames & normals implementation (does not include burst mechanics)
