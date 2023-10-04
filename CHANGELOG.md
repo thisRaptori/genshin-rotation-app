@@ -1,3 +1,18 @@
+# 4.1.1
+
+- Neuvillette frames
+- Added 4.1 first half weapons
+  - 5 star
+    - Catalyst
+      - Tome of the Eternal Flow
+  - 4 star
+    - Catalyst
+      - Ballad of the Boundless Blue
+    - Claymore
+      - Portable Power Saw
+    - Sword
+      - The Dockhand's Assistant
+
 # 4.1.0
 
 - Added beta Neuvillette
