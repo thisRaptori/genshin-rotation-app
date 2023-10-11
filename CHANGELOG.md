@@ -1,3 +1,8 @@
+# 4.1.2
+
+- Re-adjust Neuvillette frames
+- Fix charged attack details and drag position
+
 # 4.1.1
 
 - Neuvillette frames
