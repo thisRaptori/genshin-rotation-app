@@ -1,3 +1,16 @@
+# 4.1.3
+
+- Added beta Wriothesley
+- Added 4.1 second half weapons
+  - 5 star
+    - Catalyst
+      - Cashflow Supervision
+  - 4 star
+    - Bow
+      - Range Gauge
+    - Polearm
+      - Prospector's Drill
+
 # 4.1.2
 
 - Re-adjust Neuvillette frames
