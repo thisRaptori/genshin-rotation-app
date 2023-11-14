@@ -1,3 +1,16 @@
+# 4.2.0
+
+- Added beta Furina
+- Added beta Charlotte
+- Added 4.2 weapons
+  - 5 star
+    - Sword
+      - Splendor of Tranquil Waters
+  - 4 star
+    - Sword
+      - Sword of Narzissenkreuz
+- Fixed visual bug for charged actions shorter than 48 frames
+
 # 4.1.3
 
 - Added beta Wriothesley
