@@ -1,3 +1,8 @@
+# 4.2.1
+
+- Furina frames
+- Furina C6 - added 6-hit limit to infusion
+
 # 4.2.0
 
 - Added beta Furina
