@@ -1,3 +1,14 @@
+# 4.3.0
+
+- Added beta Navia
+- Added Artifact Sets
+  - Nighttime Whispers in the Echoing Woods
+  - Song of Days Past
+- Added 4.3 first half weapons
+  - 5 Star
+    - Claymore
+      - Verdict
+
 # 4.2.1
 
 - Furina frames
