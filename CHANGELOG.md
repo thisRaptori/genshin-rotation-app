@@ -1,3 +1,11 @@
+# 4.3.1
+
+- Navia frames
+- Charlotte frames
+- Wriothesley frames
+- Remove action latency after burst swap
+- Disabled yelan skill swap cancel
+
 # 4.3.0
 
 - Added beta Navia
