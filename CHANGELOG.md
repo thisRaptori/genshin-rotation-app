@@ -1,3 +1,11 @@
+# 4.3.2
+
+- Added beta Chevreuse
+- Added 4.3 second half weapons
+  - 4 Star
+    - Claymore
+      - Ultimate Overlord's Mega Magic Sword
+
 # 4.3.1
 
 - Navia frames
