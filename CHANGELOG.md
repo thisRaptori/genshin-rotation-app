@@ -1,3 +1,8 @@
+# 4.3.3
+
+- Chevreuse frames
+- Added hold option for Ayato's charged attack
+
 # 4.3.2
 
 - Added beta Chevreuse
