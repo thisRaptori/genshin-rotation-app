@@ -1,3 +1,13 @@
+# 4.4.0
+
+- Added `window.genshinRotation` property to allow users to customise values
+- Added beta Xianyun
+- Added beta Gaming
+- Added 4.4 weapon
+  - 5 Star
+    - Catalyst
+      - Crane's Echoing Call
+
 # 4.3.3
 
 - Chevreuse frames
