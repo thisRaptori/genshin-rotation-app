@@ -1,3 +1,15 @@
+# 4.5.0
+
+- Added Chiori
+- Gaming frames
+- Added 4.5 weapons
+  - 5 Star
+    - Sword
+      - Uraku Misugiri
+  - 4 Star
+    - Polearm
+      - Dialogues of the Desert Sages
+
 # 4.4.0
 
 - Added `window.genshinRotation` property to allow users to customise values
