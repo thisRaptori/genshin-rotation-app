@@ -1,3 +1,11 @@
+# 4.6.0
+
+- Added beta Arlecchino
+- Added 4.6 weapon
+  - 5 Star
+    - Polearm
+      - Crimson Moon's Semblance
+
 # 4.5.0
 
 - Added Chiori
