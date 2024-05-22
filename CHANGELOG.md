@@ -1,3 +1,7 @@
+# 4.6.1
+
+- Added Arlecchino frames
+
 # 4.6.0
 
 - Added beta Arlecchino
