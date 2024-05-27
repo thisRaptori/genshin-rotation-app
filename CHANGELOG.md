@@ -1,3 +1,7 @@
+# 4.6.2
+
+- Added Arlecchino C4
+
 # 4.6.1
 
 - Added Arlecchino frames
