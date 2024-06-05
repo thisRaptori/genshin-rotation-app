@@ -12,7 +12,7 @@
       - Silvershower Heartstrings
     - Sword
       - Absolution
-  - 5 Star
+  - 4 Star
     - Bow
       - Cloudforged
 
