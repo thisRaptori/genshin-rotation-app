@@ -1,3 +1,21 @@
+# 4.7.0
+
+- Added Clorinde
+- Added Sethos
+- Added Sigewinne
+- Added 4.5 Artifact sets
+  - Fragment Of Harmonic Whimsy
+  - Unfinished Reverie
+- Added 4.7 Weapons
+  - 5 Star
+    - Bow
+      - Silvershower Heartstrings
+    - Sword
+      - Absolution
+  - 5 Star
+    - Bow
+      - Cloudforged
+
 # 4.6.2
 
 - Added Arlecchino C4
