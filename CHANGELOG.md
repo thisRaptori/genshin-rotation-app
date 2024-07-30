@@ -1,3 +1,7 @@
+# 4.7.2
+
+- Fixed Noelle infusion on swap
+
 # 4.7.1
 
 - Added Clorinde frames
