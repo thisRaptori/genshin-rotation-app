@@ -1,3 +1,7 @@
+# 6.0.0 (beta)
+
+- Added beta v2 implementation! Beta updates will be logged in the in-app updates page, and this changelog will only become active again once the beta is complete and the old implementaion is removed.
+
 # 4.7.2
 
 - Fixed Noelle infusion on swap
