@@ -1,6 +1,234 @@
-# 6.0.0 (beta)
+# 7.0.0
 
-- Added beta v2 implementation! Beta updates will be logged in the in-app updates page, and this changelog will only become active again once the beta is complete and the old implementaion is removed.
+Finished the v2 implementation! It's currently up to date with everything including the new characters released in 7.0; read below to see the full audit of what was implemented when.
+
+There will likely be a lot of issues to iron out, but overall it's significantly more accurate than before. The main difference is that instead of rough estimates based on best guesses, the app actually models the real logic behind systems like auras, gauge theory, reactions, etc, so frame-perfect timing is now possible to achieve!
+
+Thanks again to Sylv (tahubezdachu) for helping test things!
+
+# v2 ground-up re-implementation
+
+Added beta v2 implementation! Beta updates will be logged in the in-app updates page, and this changelog will only become active again once the beta is complete and the old implementaion is removed.
+
+## Beta updates
+
+The following were logged in the in-app v2 updates page over the course of the beta:
+
+### 10th September 2026
+
+- Added Prune, Sandrone, Odette, Alyosha, and Cryo Traveler
+- Added meter indicators to Varesa, Kachina, Kinich, Mualani, Mavuika, Ifa, Iansan, Ororon, Pyro Traveler, and Freminet
+- Implemented missing Hexerei and Revelations buffs
+- Added nightsoul dash/jump mechanics to Iansan and Varesa
+- Rewrote rotation → gcsim output generator
+
+### 7th September 2026
+
+- Added Durin, Jahoda, Columbina Hyposelenia, Zibai, Illuga, Varka, Linnea, Nicole, and Lohen
+- Added optional meter indicators to Lohen, Zibai, Skirk, and Xilonen (more coming soon!)
+- Fixed some character hitmarks for multi-hit attacks
+- Fixed Flins frames and hitlag extensibility
+
+### 5th September 2026
+
+Back from a bit of a break with several new characters and a ton of cleanup work:
+
+- Added Skirk, Ifa, Dahlia, Ineffa, Lauma, Aino, Flins, and Nefer
+- Added Lunar reactions, Moonsign tracking, Verdant Dew, Seeds of Deceit, and Stellar Conduct
+- Ran an accuracy audit-and-fix pass against gcsim and the official wiki for every existing character, correcting frame timings, hitmark counts, cooldowns, energy/particle generation, buff durations, and constellation/passive behaviour that had drifted from their real kits
+- Added artifact sets:
+  - A Day Carved from Rising Winds
+  - Aubade of Morningstar and Moon
+  - Celestial Gift
+  - Disenchantment in Deep Shadow
+  - Finale of the Deep Galleries
+  - Heart of the Furnace
+  - Long Night's Oath
+  - Night of the Sky's Unveiling
+  - Scarlet Proof
+  - Silken Moon's Serenade
+- Fixed and expanded existing artifact sets:
+  - Celestial Gift
+  - Crimson Witch of Flames
+  - Flower of Paradise Lost
+  - Golden Troupe
+  - Husk of Opulent Dreams
+  - Nymph's Dream
+  - Obsidian Codex
+  - Scholar
+  - Scroll of the Hero of Cinder City
+  - Shimenawa's Reminiscence
+  - Silken Moon's Serenade
+  - Song of Days Past
+  - The Exile
+  - Thundering Fury
+  - Vermillion Hereafter
+- Fully implemented a large batch of weapons across every type:
+  - Bows: Astral Vulture's Crimson Plumage, Covenant of Frost and Snow, Flower-Wreathed Feathers, Golden Frostbound Oath, Hunter's Path, Ibis Piercer, King's Squire, Messenger, Mitternachts Waltz, Polar Star, Predator, Prototype Crescent, Rainbow Serpent's Rain Bow, Range Gauge, Scion of the Blazing Sun, Sequence of Solitude, Silvershower Heartstrings, Skyward Harp, Snare Hook, Song of Stillness, The Daybreak Chronicles, The Viridescent Hunt, Thundering Pulse, Windblume Ode
+  - Catalysts: Ash-Graven Drinking Horn, Clash of Kings, Dawning Frost, Echoes of the Heart, Etherlight Spindlelute, Hakushin Ring, Jadefall's Splendor, Kagura's Verity, Lost Prayer to the Sacred Winds, Mappa Mare, Memory of Dust, Nightweaver's Looking Glass, Nocturne's Curtain Call, Oathsworn Eye, Otherworldly Story, Prototype Amber, Reliquary of Truth, Ring of Yaxche, Sacrificial Jade, Skyward Atlas, Solar Pearl, Sunny Morning Sleep-In, Surf's Up, The Widsith, Thrilling Tales of Dragon Slayers, Tome of the Eternal Flow, Tulaytullah's Remembrance, Vivid Notions, Waveriding Whirl, Wine and Song
+  - Claymores: A Teaspoon of Transcendence, A Thousand Blazing Suns, Blade of Atonement, Earth Shaker, Fang of the Mountain King, Flame-Forged Insight, Fruitful Hook, Gest of the Mighty Wolf, Katsuragikiri Nagamasa, Luxurious Sea-Lord, Mailed Flower, Master Key, Portable Power Saw, Prototype Archaic, Serpent Spine, Skyrider Greatsword, Skyward Pride, Snow-Tombed Starsilver, Song of Broken Pines, The Bell, The Unforged, Tidal Shadow, Verdict, Whiteblind
+  - Polearms: Bloodsoaked Ruins, Disaster and Remorse, Footprint of the Rainbow, Fractured Halo, Frostbreath, Halberd, Kitain Cross Spear, Lumidouce Elegy, Missive Windspear, Moonpiercer, Mountain-Bracing Bolt, Primordial Jade Winged-Spear, Prospector's Drill, Prototype Starglitter, Rightful Reward, Sacrificer's Staff, Skyward Spine, Song of the Vigil, Staff of the Scarlet Sands, Symphonist of Scents, Tamayuratei no Ohanashi, Vortex Vanquisher
+  - Swords: Athame Artis, Azurelight, Emberwell, Exaiphanes Blade, Flute of Ezpitzal, Haran Geppaku Futsu, Heretic's Molten Blade, Iron Sting, Kagotsurube Isshin, Key of Khaj-Nisut, Light of Foliar Incision, Lightbearing Moonshard, Mistsplitter Reforged, Peak Patrol Song, Prototype Rancour, Sapwood Blade, Serenity's Call, Skyrider Sword, Skyward Blade, Splendor of Tranquil Waters, Sturdy Bone, Summit Shaper, Sword of Descension, Sword of Narzissenkreuz, The Dockhand's Assistant, The Flute, Traveler's Handy Sword, Uraku Misugiri, Whitelake Frostfeather, Wolf-Fang
+- Fixed and expanded existing weapons:
+  - Amenoma Kageuchi
+  - Cashflow Supervision
+  - Crane's Echoing Call
+  - Dark Iron Sword
+  - Dialogues of the Desert Sages
+  - Emerald Orb
+  - Everlasting Moonglow
+  - Fading Twilight
+  - Fleuve Cendre Ferryman
+  - Forest Regalia
+  - Fruit of Fulfillment
+  - Sacrificial Greatsword
+
+### 12th January 2026
+
+- Added Escoffier
+
+### 7th January 2026
+
+- Added Iansan
+- Added more weapons: Fleuve Cendre Ferryman, Flowing Purity, Freedom Sworn, Frosbearer, Fruit of Fulfillment
+- Added rough movement estimates to all existing character actions
+- Fixed Diluc and Klee chain interruptions
+- Added icons for Keqing and Diluc skill recast
+- Fixed various bugs in Keqing's implementation
+
+### 2nd January 2026
+
+- Added Hexerei buffs for existing characters (Albedo, Fischl, Klee, Mona, Razor, Sucrose, and Venti)
+- Fixed various bugs in the hexerei characters
+- Fixed claymore charged hit counts
+- Fixed various issues in Qiqi's implementation
+
+### 2nd December 2025
+
+- Added Varesa
+- Fixed Jean burst healing timing, enter/exit damage, and C2 implementation
+- Fixed Obsidian codex detection for several characters
+- Removed ICD from Anemo traveler storm hit
+- Removed ICD from Aether plunge
+- Implemented geo construct limit
+- Fixed Albedo construct creation
+- Fixed Geo traveler burst construct creation timing
+
+### 22nd November 2025
+
+- Added Mizuki
+- Added more weapons: Emerald Orb, Engulfing Lightning, Everlasting Moonglow, Eye of Perception, Fillet Blade, Finale of the Deep
+- Fixed infusion durations and added more extensive logging
+- Fixed Chongyun C1
+- Fixed Bennett C4
+- Fixed Noelle normal cancels and burst infusion
+- Fixed Sigewinne bond calculation
+
+### 18th November 2025
+
+- Added Pyro Traveller
+- Fixed Xingqiu and Beidou coordinated attack trigger conditions
+- Added Ningguang A4 passive support on dash
+
+### 15th November 2025
+
+- Added Mavuika, Citlali, and Lanyan
+- Added more weapons: Dialogues of the Desert Sages, Dodoco Tales, Dragonspine Spear
+- Fixed Xingqiu's burst
+- Fixed dash infusions
+
+### 12th November 2025
+
+- Added characters up to 5.2 (Xilonen, Chasca, and Ororon)
+- Added more weapons: Crane's Echoing Call, Crescent Pike, Crimson Moon's Semblance, Dark Iron Sword, Debate Club
+- Added missing hitlag extension for various Fontaine characters
+- Added Lyney C2
+- Added Sigewinne C6
+- Fixed Navia's infusion/plunge interaction
+
+### 8th November 2025
+
+- Added characters up to 5.0 (Kachina, Kinich, Mualani)
+- Added Nightsoul Blessing and Nightsoul Bursts
+- Added Cinder City and Obsidian Codex artifact sets
+- Added more weapons: Absolution, Amenoma Kageuchi, Ballad of the Boundless Blue, Beacon of the Reed Sea, Bloodtainted Greatsword, Calamity Queller, Cashflow Supervision
+
+### 5th November 2025
+
+- Added characters up to 4.8 (Sigewinne and Emilie)
+- Started adding weapons: Alley Hunter, Cloudforged, Compound Bow, Elegy for the End, End of the Line, Fading Twilight, Favonius (Codex, Greatsword, Lance, Sword, and Warbow), Sacrificial (Bow, Fragments, Greatsword, and Sword)
+- Fixed Arlecchino skill cooldown
+- Added Gorou's burst crystallise shard consumption
+- Fixed Clorinde's A1 passive
+- Fixed Amber's C2, C4, and burst tick count
+- Fixed Xiangling C1 and burst ICD, and added guoba swirl mechanic to Sucrose's skill
+
+### 2nd November 2025
+
+- Added Arlecchino, Clorinde, and Sethos
+- Added Bond of Life mechanics
+- Added Fragment of Harmonic Whimsy artifact set
+
+### 28th October 2025
+
+- Added characters up to 4.5 (Xinyan, Gaming, Chiori)
+- Fixed Sucrose A1 overlap
+- Consolidated plunge attacks and corrected some incorrect frames
+- Added constructs system
+
+### 25th October 2025
+
+- Added characters up to 4.3 (Freminet, Neuvillette, Wriothesley, Furina, Charlotte, Navia, and Chevreuse)
+- Updated the character sort order to match the in-game order
+- Adjusted Xiangling's chili pepper mechanic - you now need to dash to pick it up!
+- Added crystallise shard tracking - also requires a dash to pick up shards
+
+### 22nd October 2025
+
+- Added most of the characters from 4.0 (Hydro Traveler, Lyney, and Lynette)
+- Connected v2 to account-level character constellation/weapon/artifact setup
+- Fixed Dehya's skill/burst interaction
+- Fixed Baizhu C6
+- Added Diona charged attack ICD
+- Reset jump height before switching characters
+- Added persistent updraft after Venti hold skill (allows plunge attack after jump)
+- Fixed Barbara's C4 and charged attack ICD
+- Fixed Kaeya's A4 Passive and ICDs
+- Fixed Mika's attack speed buff
+- Rewrote the damage and elemental application system to enable Shatter and improve accuracy
+
+### 18th October 2025
+
+- Added characters up to 3.7 (Layla, Wanderer, Yaoyao, Dehya, Mika, Baizhu, Kaveh, and Kirara)
+- Fixed Xingqiu's C2
+- Fixed Klee's burst duration
+
+### 15th October 2025
+
+- Added characters up to 3.1 (Dendro Traveler, Collei, Tighnari, Dori, Cyno, Candace, and Nilou)
+
+### 12th October 2025
+
+- Added characters up to 2.8 (Ayato, Yelan, Kuki, and Heizou)
+- Added hitlag extension for elemental auras
+
+### 8th October 2025
+
+- Added characters up to 2.5 (Thoma, Itto, Gorou, Shenhe, Yun Jin, and Yae Miko)
+- Added hitlag extension support (note: aura extension is also done)
+- Added some tweaks to the app's layout to better support different screen sizes!
+
+### 5th October 2025
+
+- Added characters from 2.0 and 2.1 (Electro Traveler, Ayaka, Sayu, Yoimiya, Sara, Raiden, and Kokomi)
+
+### 2nd October 2025
+
+We finally have the absolute basics of the rewrite up and running!
+
+In order to accurately represent more complex characters, we've started from scratch, using a completely different approach which lets us include more technical details like ICDs and gauge theory.
+
+Note that this is a very early version, and since every single feature has a lot of nuances which only become apparent when used together with all the *other* features, there were many inaccuracies at this stage.
 
 # 4.7.2
 
