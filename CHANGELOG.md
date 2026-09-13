@@ -1,3 +1,26 @@
+# 7.1.0
+
+- Added beta Vesna and Vodyanitsa
+- Added rotation stats
+  - Total rotation duration
+  - Exact on-field time per character
+  - Energy gained per character (particles & flat energy)
+  - Upper bound ER requirement per character
+- Added 7.1 weapons
+  - 5 Star
+    - Catalyst
+      - Hymn of the Maelstrom
+    - Sword
+      - Beyond the Chrysalis
+  - 4 Star
+    - Bow
+      - Breezeborne Refrain
+    - Catalyst
+      - Winter's Heavy Heart
+    - Sword
+      - New Bough
+      - Silver Light
+
 # 7.0.0
 
 Finished the v2 implementation! It's currently up to date with everything including the new characters released in 7.0; read below to see the full audit of what was implemented when.
@@ -228,7 +251,7 @@ We finally have the absolute basics of the rewrite up and running!
 
 In order to accurately represent more complex characters, we've started from scratch, using a completely different approach which lets us include more technical details like ICDs and gauge theory.
 
-Note that this is a very early version, and since every single feature has a lot of nuances which only become apparent when used together with all the *other* features, there were many inaccuracies at this stage.
+Note that this is a very early version, and since every single feature has a lot of nuances which only become apparent when used together with all the _other_ features, there were many inaccuracies at this stage.
 
 # 4.7.2
 
