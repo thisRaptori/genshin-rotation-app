@@ -1,3 +1,7 @@
+# 7.1.1
+
+- Added Zibai frames
+
 # 7.1.0
 
 - Added beta Vesna and Vodyanitsa
