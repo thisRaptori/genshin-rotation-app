@@ -1,3 +1,9 @@
+# 7.1.2
+
+- Added **Browse**: submit and share rotations with the community, and vote on others'
+- Added **Practice**: an in-browser rhythm-game mode that scores you against a rotation's timeline
+- Added an animated intro banner walking new users through Browse, Build, Practice, and Share
+
 # 7.1.1
 
 - Added Zibai frames
