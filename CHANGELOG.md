@@ -1,3 +1,9 @@
+# 7.1.3
+
+- Built out **Vesna** and **Vodyanitsa**'s kits and added frames
+- Optimised the app so that it's ~50% smaller, faster, and defers processing until actually necessary!
+- Added Enka UID and profile import
+
 # 7.1.2
 
 - Added **Browse**: submit and share rotations with the community, and vote on others'
