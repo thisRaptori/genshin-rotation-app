@@ -1,3 +1,8 @@
+# 7.1.4
+
+- Added **gcsim preamble export**: sets up character configuration, target, and active character, so a rotation can be copy/pasted into gcsim and run without extra changes.
+- Added **full Enka account data passthrough**: if a character's selected build is sourced from an enka account, gcsim export now includes the full character config settings, including stat calculations.
+
 # 7.1.3
 
 - Built out **Vesna** and **Vodyanitsa**'s kits and added frames
